@@ -1,0 +1,55 @@
+left__navbar{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.right__navbar{
+display: flex; 
+align-items: center;
+}
+
+.navbar__style {
+  background: linear-gradient(90deg, #0047ab, #1ca9c9);
+color: #fff9f9; /* Text color */
+display: flex;
+justify-content: space-between;
+}
+
+.left__navbar span {
+font-size: 1.5rem;
+font-weight: bold;
+color: #FFFFFF
+;
+}
+
+.left__navbar mat-icon {
+color: #FFFFFF
+; /* Icon color */
+
+}
+
+.right__navbar {
+display: flex;
+align-items: center;
+}
+
+.right__navbar .demo-section button {
+color: #FFFFFF;
+}
+
+.right__navbar mat-icon {
+color: #FFFFFF; /* Notification icon color */
+}
+
+.right__navbar button[mat-button] {
+color: #e6e4e5;
+font-weight: 500;
+font-size: 1rem;
+}
+
+.align{
+display: flex;
+align-items: center;
+}

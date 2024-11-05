@@ -1,0 +1,33 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row class="navbar__style">
+    <div class="left__navbar">
+      <button mat-icon-button>
+        <mat-icon>menu</mat-icon>
+      </button>
+      &nbsp;
+      <span>Gestion Foyer</span>
+    </div>
+    <div class="right__navbar">
+      <div class="demo-section">
+        <button mat-icon-button>
+          <mat-icon matBadge="2" matBadgeColor="accent">notifications</mat-icon>
+        </button>
+      </div>
+      <div>
+        <button mat-button [matMenuTriggerFor]="menu">
+          <mat-icon>person</mat-icon> MANAI DASH
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item  class="align">
+            <mat-icon>person</mat-icon>
+            Account
+          </button>
+          <button mat-menu-item class="align">
+            <mat-icon>exit_to_app</mat-icon>
+            Log out
+          </button>
+        </mat-menu>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
