@@ -1,0 +1,30 @@
+<app-navbar></app-navbar>
+
+<div class="container" fxLayout="row"> 
+
+    <app-sidebar fxFlex="20%" class="sidebar"></app-sidebar> <!-- Add sidebar component with specific flex percentage -->
+
+    <div fxFlex="80%" fxLayoutAlign="center center"> <!-- Center content vertically and horizontally -->
+        <mat-card>
+            <mat-card-content>
+                <h2>My Profile</h2>
+
+                <div> <!-- Center inner content -->
+                    <div>
+                        <app-profile-details></app-profile-details>
+                    </div>
+
+                    <div fxFlex></div>
+
+                    <div> <!-- Corrected typo in xs percentage -->
+                        <mat-tab-group>
+                            <mat-tab>
+                                <app-change-password></app-change-password>
+                            </mat-tab>
+                        </mat-tab-group>
+                    </div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

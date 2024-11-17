@@ -1,0 +1,13 @@
+
+.profile-card img {
+    width: 50%;
+    height: 10%;
+    object-fit: cover; 
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; 
+    margin: 2px;
+    margin-left: 1px;
+     
+
+};

@@ -1,0 +1,12 @@
+.my-image-class {
+    background-image: url('/assets/images/shop.png');
+    
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(165, 144, 144, 0.5); 
+    opacity: 0.5;/* Black with 50% transparency */
+    top: 0;
+    left: 0;
+  }
+ 

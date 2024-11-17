@@ -1,0 +1,79 @@
+
+.exmaple-card {
+
+ background-size: cover;  /* Ensure the image covers the entire card */
+background-position: center; /* Position the image at the center */
+background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+color: white; /* Text color to make it visible on the background */
+padding: 20px;
+border-radius: 8px;  
+}
+
+.example-form {
+
+  
+  margin-top: 50px;
+  margin-left: 00px;
+  background-color: #fff; /* Couleur de fond */
+  padding: 20px; /* Espace interne */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  width: 100%;
+  max-width: 300px; /* Largeur maximale */
+  box-sizing: border-box; /* Inclut les bordures et les marges dans la largeur */
+}
+
+.example-full-width {
+  display: flex;
+
+  width: 100%;
+}
+.example-container mat-form-field + mat-form-field {
+  inline-size: flex-grow;
+  background-color: #fff; /* Couleur de fond */
+  padding: 30px; /* Espace interne */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  width: 500%;
+  max-width: 400px; /* Largeur maximale */
+  box-sizing: border-box; /* Inclut les bordures et les marges dans la largeur */
+}
+
+.example-right-align {
+  text-align: right;
+  
+}
+mat-card {
+  max-height: fit-content;
+  margin-left: 600px;
+  margin-top: 140px;
+  height: auto;
+  max-width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: center; /* Centre horizontalement les boutons */
+  gap: 20px;               /* Espace entre les boutons */
+  width: 100%;              /* Assure que les boutons prennent toute la largeur du mat-card */
+}
+
+button {
+  font-weight: bold;
+}
+
+button p {
+  margin: 0;  /* Supprime la marge par défaut sur <p> */
+}
+
+.card-title {
+  font-size: 2rem;        /* Taille de police */
+  color: #ff5722;         /* Nouvelle couleur - orange par exemple */
+  text-align: center;     /* Centré */
+  font-weight: bold;      /* Gras */
+}
