@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+redirectToProfile() {
+throw new Error('Method not implemented.');
+}
+goToProfileDetails() {
+throw new Error('Method not implemented.');
+}
 
 }
